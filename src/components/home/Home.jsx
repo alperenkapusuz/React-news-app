@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <Row>
-      <Col style={{ width: 1400, margin: "auto" }}>
+      <Col style={{ width: 1400, margin: "auto", backgroundColor:"white" }}>
         <Carousel autoplay>
           {home &&
             home.map((item, index) => {
