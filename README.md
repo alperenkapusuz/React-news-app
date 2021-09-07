@@ -2,6 +2,7 @@ Firstly :
 Create a new react project:
 npx create-react-app my_app
 npm start
+
 ----------------------------------------------------------------
 Secondly:
 install these libraries in your project:
@@ -10,6 +11,7 @@ npm i --save axios @material-ui/core
 npm install reactstrap  
 npm npm install antd
 npm install react-bootstrap@next bootstrap@5.1.0
+
 ----------------------------------------------------------------
 used background color site:
 https://uigradients.com/
