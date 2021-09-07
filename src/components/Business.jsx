@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Card, Col, Row, Button, Divider } from "antd";
+import { Card, Col, Row, Button } from "antd";
 import axios from "axios";
 
 const { Meta } = Card;
@@ -29,7 +29,7 @@ const Business = () => {
                   key={index}
                   hoverable
                   style={{width: 470, margin: 20 }}
-                  cover={<img alt="image" src={item.urlToImage} />}
+                  cover={<img alt="foto" src={item.urlToImage} />}
                 >
                   <Meta title={item.title} description={item.content} />
                   <a href={item.url} target="_blank" rel="noopener noreferrer">
@@ -41,7 +41,6 @@ const Business = () => {
                 </Col>
               );
             })}
-       
       </Row>
     </div>
   );
