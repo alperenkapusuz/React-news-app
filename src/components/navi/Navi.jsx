@@ -28,9 +28,6 @@ const Navi = (props) => {
               <NavLink href="/entertainment/">Entertainment</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/general/">General</NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink href="/health/">Health</NavLink>
             </NavItem>
             <NavItem>
