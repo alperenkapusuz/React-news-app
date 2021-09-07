@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter,Switch, Route } from "react-router-dom";
+import Home from "./components/home/Home"
 import Business from "./components/categories/Business";
 import Entertainment from "./components/categories/Entertainment";
 import Health from "./components/categories/Health"
@@ -13,6 +14,7 @@ const App = () => {
     <BrowserRouter>
     <Navi/>
       <Switch>
+      <Route path="/" exact component={Home} />
         <Route path="/business" exact component={Business} />
         <Route path="/entertainment" exact component={Entertainment} />
         <Route path="/health" exact component={Health} />
